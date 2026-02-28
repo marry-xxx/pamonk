@@ -29,15 +29,15 @@ cd de && wget -q kizegame.com/BH/DE.tar.gz && tar -xvf DE.tar.gz && cd ..
 echo "=== Download Desktop Scripts ==="
 mkdir -p ~/Desktop
 cd ~/Desktop
-wget -q https://raw.githubusercontent.com/patmeng/Newcode/main/setup.sh
-wget -q https://raw.githubusercontent.com/patmeng/Newcode/main/play.png
-wget -q https://raw.githubusercontent.com/patmeng/Newcode/main/chr.sh
-wget -q https://raw.githubusercontent.com/patmeng/Newcode/main/GP/gp.ascr
-wget -q https://raw.githubusercontent.com/patmeng/Newcode/main/GP/gp.sh
-wget -q https://raw.githubusercontent.com/patmeng/Newcode/main/GD/FI.ascr
-wget -q https://raw.githubusercontent.com/patmeng/Newcode/main/GD/GDrun.sh
-wget -q https://raw.githubusercontent.com/patmeng/Newcode/main/GD/link.sh
-wget -q https://raw.githubusercontent.com/patmeng/Newcode/main/ADS/adsupdate.sh
+wget -q https://raw.githubusercontent.com/pamonk/Newcode/main/setup.sh
+wget -q https://raw.githubusercontent.com/pamonk/Newcode/main/play.png
+wget -q https://raw.githubusercontent.com/pamonk/Newcode/main/chr.sh
+wget -q https://raw.githubusercontent.com/pamonk/Newcode/main/GP/gp.ascr
+wget -q https://raw.githubusercontent.com/pamonk/Newcode/main/GP/gp.sh
+wget -q https://raw.githubusercontent.com/pamonk/Newcode/main/GD/FI.ascr
+wget -q https://raw.githubusercontent.com/pamonk/Newcode/main/GD/GDrun.sh
+wget -q https://raw.githubusercontent.com/pamonk/Newcode/main/GD/link.sh
+wget -q https://raw.githubusercontent.com/pamonk/Newcode/main/ADS/adsupdate.sh
 
 chmod +x *.sh *.ascr || true
 
@@ -50,9 +50,9 @@ sudo ufw allow from 1.1.1.1 to any port 3389
 echo "=== Ganti hosts & proxychains.conf ==="
 cd /etc
 sudo mv hosts hosts.bak || true
-sudo wget -q https://raw.githubusercontent.com/patmeng/Newcode/main/hosts -O hosts
+sudo wget -q https://raw.githubusercontent.com/pamonk/Newcode/main/hosts -O hosts
 sudo mv proxychains.conf proxychains.conf.bak || true
-sudo wget -q https://raw.githubusercontent.com/patmeng/Newcode/main/GD/proxychains.conf -O proxychains.conf
+sudo wget -q https://raw.githubusercontent.com/pamonk/Newcode/main/GD/proxychains.conf -O proxychains.conf
 
 echo "=== Set Default Session Manager ke LXDE ==="
 sudo update-alternatives --set x-session-manager /usr/bin/startlxde
@@ -71,4 +71,4 @@ killall gnome-keyring-daemon
 
 echo ">>> Installasi selesai!"
 echo ">>> RDP sudah aktif di port 3389"
-echo ">>> Login pakai user root (password: Mumafol@#pol)"
+echo ">>> Login pakai user root (password: Kerjacerdas55)"
