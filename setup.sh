@@ -34,6 +34,7 @@ wget -q https://raw.githubusercontent.com/marry-xxx/pamonk/main/play.png
 wget -q https://raw.githubusercontent.com/marry-xxx/pamonk/main/chr.sh
 wget -q https://raw.githubusercontent.com/marry-xxx/pamonk/main/GP/gp.ascr
 wget -q https://raw.githubusercontent.com/marry-xxx/pamonk/main/GP/gp.sh
+wget -q https://raw.githubusercontent.com/marry-xxx/pamonk/main/GP/gpc.sh
 wget -q https://raw.githubusercontent.com/marry-xxx/pamonk/main/GD/FI.ascr
 wget -q https://raw.githubusercontent.com/marry-xxx/pamonk/main/GD/GDrun.sh
 wget -q https://raw.githubusercontent.com/marry-xxx/pamonk/main/GD/link.sh
