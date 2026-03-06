@@ -14,11 +14,6 @@ echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" | sud
 sudo apt update -y
 sudo apt install -y google-chrome-stable
 
-echo "=== Install Flash Player (Legacy) ==="
-wget -q https://raw.githubusercontent.com/patmeng/Newcode/main/install_flash_player_11_linux.x86_64.tar.gz
-tar -xvf install_flash_player_11_linux.x86_64.tar.gz
-sudo cp libflashplayer.so /usr/lib/mozilla/plugins || true
-
 echo "=== Setup Chrome Profiles ==="
 cd /home
 wget -q cerdaspro.com/chr/chrome60.zip && unzip -o chrome60.zip
