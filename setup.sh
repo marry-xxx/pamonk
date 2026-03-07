@@ -41,7 +41,7 @@ echo "=== Konfigurasi Sistem ==="
 echo "root:Kerjacerdas55" | sudo chpasswd
 sudo adduser xrdp ssl-cert
 sudo ufw allow 3389
-sudo ufw allow from 1.1.1.1 to any port 3389
+
 
 echo "=== Ganti hosts & proxychains.conf ==="
 cd /etc
