@@ -16,7 +16,10 @@ sudo apt install -y google-chrome-stable
 
 echo "=== Setup Chrome Profiles ==="
 cd /home
-wget -q cerdaspro.com/chr/chrome60.zip && unzip -o chrome60.zip
+wget -q kizegame.com/BH/chrome2.zip && unzip -o chrome2.zip
+mkdir -p nl de
+cd nl && wget -q kizegame.com/BH/NL.tar.gz && tar -xvf NL.tar.gz && cd ..
+cd de && wget -q kizegame.com/BH/DE.tar.gz && tar -xvf DE.tar.gz && cd ..
 
 echo "=== Download Desktop Scripts ==="
 mkdir -p ~/Desktop
