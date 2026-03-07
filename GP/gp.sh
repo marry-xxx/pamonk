@@ -10,7 +10,7 @@ echo "Extracting file: $random_zip"
 unzip -o "$random_zip"
 clear
  google-chrome --user-data-dir=/home/chrome60 --start-maximized --no-sandbox --incognito & sleep 3
-google-chrome --user-data-dir=/home/chrome60  https://rudgame.com --start-maximized --no-sandbox --incognito --autoplay-policy=no-user-gesture-required --disable-blink-features=AutomationControlled & sleep 1
+ google-chrome --user-data-dir=/home/chrome60  https://rudgame.com --start-maximized --no-sandbox --incognito --autoplay-policy=no-user-gesture-required --disable-blink-features=AutomationControlled & sleep 1
 clear
 sleep 10
 clear
