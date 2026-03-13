@@ -140,7 +140,7 @@
                 <subParameter name="value" code="0">seconds</subParameter>
             </parameter>
         </action>
-<action name="ActionClick" pauseAfter="900">
+        <action name="ActionClick" pauseAfter="900">
             <exception id="0" action="0" line=""/>
             <exception id="1" action="0" line=""/>
             <exception id="2" action="1" line=""/>
@@ -292,7 +292,7 @@
                 <subParameter name="value" code="0">seconds</subParameter>
             </parameter>
         </action>
-        <action name="ActionClick">
+        <action name="ActionClick" enabled="false">
             <exception id="0" action="0" line=""/>
             <exception id="1" action="0" line=""/>
             <exception id="2" action="1" line=""/>
@@ -319,7 +319,7 @@
                 <subParameter name="value" code="0">false</subParameter>
             </parameter>
         </action>
-        <action name="ActionPause" color="#ffff00">
+        <action name="ActionPause" color="#ffff00" enabled="false">
             <exception id="0" action="0" line=""/>
             <exception id="1" action="0" line=""/>
             <exception id="2" action="1" line=""/>
@@ -482,7 +482,7 @@
                 <subParameter name="value" code="0">seconds</subParameter>
             </parameter>
         </action>
-<action name="ActionClick">
+        <action name="ActionClick">
             <exception id="0" action="0" line=""/>
             <exception id="1" action="0" line=""/>
             <exception id="2" action="1" line=""/>
@@ -655,7 +655,7 @@
                 <subParameter name="value" code="0">false</subParameter>
             </parameter>
         </action>
-<action name="ActionClick" color="#00ff00" pauseBefore="500" pauseAfter="500">
+        <action name="ActionClick" color="#00ff00" pauseBefore="500" pauseAfter="500">
             <exception id="0" action="0" line=""/>
             <exception id="1" action="0" line=""/>
             <exception id="2" action="1" line=""/>
@@ -915,7 +915,7 @@
                 <subParameter name="value" code="0">seconds</subParameter>
             </parameter>
         </action>
-<action name="ActionClick" color="#aa55ff" pauseBefore="500" pauseAfter="500">
+        <action name="ActionClick" color="#aa55ff" pauseBefore="500" pauseAfter="500">
             <exception id="0" action="0" line=""/>
             <exception id="1" action="0" line=""/>
             <exception id="2" action="1" line=""/>
