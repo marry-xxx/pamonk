@@ -2,16 +2,14 @@
 printf '\033]2;helpbot\a'
 while :
 do
- google-chrome --user-data-dir=/home/chrome60 --start-maximized --no-sandbox --incognito & sleep 5
- google-chrome --user-data-dir=/home/chrome60  https://rudgame.com --start-maximized --no-sandbox --incognito --autoplay-policy=no-user-gesture-required --disable-blink-features=AutomationControlled & sleep 5
-clear
-google-chrome --user-data-dir=/home/chrome60  https://rudgame.com --start-maximized --no-sandbox --incognito --autoplay-policy=no-user-gesture-required --disable-blink-features=AutomationControlled & sleep 3
-clear
+ google-chrome --user-data-dir=/home/chrome60 --start-maximized --no-sandbox --incognito & sleep 3
+ google-chrome --user-data-dir=/home/chrome60 https://zonegame.net --start-maximized --no-sandbox --incognito --autoplay-policy=no-user-gesture-required --disable-blink-features=AutomationControlled & sleep 1
+clearx
 sleep 10
 clear
 echo start helpbot
 actiona -s -C -Q -e -x /root/Desktop/gp.ascr
-sleep 5
+sleep 50
 pkill --oldest chrome
 pkill --oldest chrome
 pkill --oldest chrome
