@@ -7,11 +7,11 @@ do
 clear
 google-chrome --user-data-dir=/home/chrome60  https://rudgame.com --start-maximized --no-sandbox --incognito --autoplay-policy=no-user-gesture-required --disable-blink-features=AutomationControlled & sleep 3
 clear
-sleep 10
+sleep 7
 clear
 echo start helpbot
 actiona -s -C -Q -e -x /root/Desktop/gp.ascr
-sleep 5
+sleep 30
 pkill --oldest chrome
 pkill --oldest chrome
 pkill --oldest chrome
